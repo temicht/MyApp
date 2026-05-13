@@ -39,5 +39,5 @@ jobs:
         context: .
         push: true
         tags: |
-          ghcr.io/${{ github.repository }}:latest
-          ghcr.io/${{ github.repository }}:${{ github.sha }}
+          ghcr.io/temicht/myapp:latest
+          ghcr.io/temicht/myapp:${{ github.sha }}
